@@ -70,7 +70,7 @@ function checkEmptyList() {
     const emptyListMarkup = `
         <li id="emptyList" class="list-group-item empty-list">
             <img src="./img/leaf.svg" alt="Empty" width="48" class="mt-3" />
-            <div class="empty-list__title">Список дел пуст</div>
+            <div class="empty-list__title">Список справ порожній</div>
         </li>`;
 
     tasksList.insertAdjacentHTML('afterbegin', emptyListMarkup);
